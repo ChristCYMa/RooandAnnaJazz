@@ -1,0 +1,107 @@
+/* HTML elements */
+
+hr {
+  border-top: dotted;
+  border-width: 5px;
+  width: 65%;
+}
+h1{
+  font-size: 6rem;
+  text-align: center;
+  margin: 5% auto;
+  padding-top: 25%;
+font-family: 'Archivo Black', sans-serif;
+
+}
+
+h2, h3 {
+  text-align: center;
+  margin: 5% auto;
+font-family: 'Archivo Black', sans-serif;
+}
+h3{
+font-family: 'Archivo Black', sans-serif;
+}
+p{
+  margin:auto;
+  text-align: center;
+}
+
+/* Top container Roo Background */
+.topContainer {
+  background-image: url("IMG_0375.JPG");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  padding-bottom:0;
+  color: white;
+}
+
+/* Second Container, Roo Profile */
+.secondContainer {
+  padding: 5%;
+  text-align: right;
+  align-items: center;
+}
+.roosubheader {
+  text-align: right;
+  margin: 0 15% 0 0;
+}
+
+
+/* Third Container, What Roo does */
+.rooDoes {
+  align-items: center;
+  margin: 5%;
+}
+
+.rectangleroopic {
+  max-width: 100%;
+  border-radius: 5%;
+}
+
+.huge {
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.container {
+  width: 70%;
+  position: absolute;
+}
+
+.overlay {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.sneakytext {
+  position: relative;
+  margin: 0;
+}
+
+.sneaky{
+  margin-top: 20%;
+  margin-bottom: 20%;
+  justify-content: center;
+}
+
+.treats{
+  text-align: center;
+  margin-bottom: 5%;
+}
+.footer{
+  background-color: gray;
+  padding: 3%;
+}
